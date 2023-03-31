@@ -350,19 +350,19 @@
   $('#counter-block').ready(() => {
     $('.room').animationCounter({
       start: 0,
-      end: 40,
-      step: 2,
+      end: 7,
+      step: 1,
       delay: 10,
     });
     $('.staff').animationCounter({
       start: 0,
-      end: 40,
+      end: 600,
       step: 2,
       delay: 15,
     });
     $('.restaurant').animationCounter({
       start: 0,
-      end: 50,
+      end: 100,
       step: 2,
       delay: 12,
     });
